@@ -14,7 +14,7 @@
 
 int main(){
 	screen_t	my_screen;							//screen structure, contains all that is needed by the program
-	char*		images_folder = "/home/andrea/workspace/car_race_v5/images/";	//images folder path
+	char*		images_folder = "./images/";	//images folder path
 
 	printf("main started!\n");
 	init_screen(&my_screen, WIDTH, HEIGHT, images_folder);
