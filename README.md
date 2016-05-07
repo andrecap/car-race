@@ -1,5 +1,8 @@
 # car-race
 
-Simple program that emulates a car race using the pthread library. 
+Simple program that emulates a car race using Linux pthread and the Allegro library. 
 Project delivered for the Real Time Systems exam at University of Pisa.
-Works under Linux.
+
+Compiling:
+- install Allegro 4
+- compile including the libraries : -lalleg -lpthread -lrt
